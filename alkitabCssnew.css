@@ -1,0 +1,228 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style */
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header {
+  border-top: 1px brown solid;
+  margin-bottom: 25px;
+}
+
+.wadah {
+  width: 750px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .wadah {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+.bible {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.ayat {
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.jarak {
+  width: 22px;
+  align-content: 23;
+}
+
+.wadah {
+  margin-bottom: 30px;
+}
+
+.judul {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.teks {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+select {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jarakTitle {
+  margin-top: 20px;
+}
+
+.main {
+  margin-top: 200px;
+}
+
+.pasal {
+  width: 50%;
+}
+
+.spinner {
+  margin: 5rem auto;
+  text-align: center;
+}
+svg {
+  height: 2rem;
+  width: 5rem;
+  fill: rgb(255, 30, 0);
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(10);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
