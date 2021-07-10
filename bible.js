@@ -134,3 +134,5 @@ import spinner from "./spinner.js";
 
   new MainApp(`kej`, 1);
 })();
+
+// !kalo push ke gituhub $ (git push originn master)
