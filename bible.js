@@ -127,10 +127,11 @@ import spinner from "./spinner.js";
     _pasals() {
       inputAyat.innerHTML = "";
       let hasil = document.querySelector(`.pasal`);
-
       return this._apiAlkitab(this.KitabJoin, +hasil.value);
     }
   }
 
   new MainApp(`kej`, 1);
 })();
+
+//! kalo mau push kegithub (git push originn master)
