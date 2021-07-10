@@ -120,13 +120,13 @@ import spinner from "./spinner.js";
       for (let x of this.dataaja[1].passage_list)
         if (x.abbreviation === this.dataKtab)
           for (let i = 0; i < x.total_chapter; i++) this.#pasall(i + 1);
-
       return this._apiAlkitab(this.KitabJoin, 1);
     }
 
     _pasals() {
       inputAyat.innerHTML = "";
       let hasil = document.querySelector(`.pasal`);
+      console.log(`Welcome`);
       return this._apiAlkitab(this.KitabJoin, +hasil.value);
     }
   }
