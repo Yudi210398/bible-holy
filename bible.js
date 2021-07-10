@@ -124,10 +124,6 @@ import spinner from "./spinner.js";
       return this._apiAlkitab(this.KitabJoin, 1);
     }
 
-    dataFitur() {
-      console.log(`meki`);
-    }
-
     _pasals() {
       inputAyat.innerHTML = "";
       let hasil = document.querySelector(`.pasal`);
