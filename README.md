@@ -1,3 +1,4 @@
-# Alkitab Project
+# hai
 
-alkitab online semoga membantu oke
+source code alkitab onlline
+dan ini link ke app (https://yudi-runat-masneno.netlify.app/)
